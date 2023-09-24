@@ -7,11 +7,11 @@ public class Main{
         int segundos = sc.nextInt();
         int minutos=0, horas=0;
 
-        while (segundos>60){
+        while (segundos>=60){
             segundos=segundos-60;
             minutos++;
         }
-        while (minutos>60){
+        while (minutos>=60){
             minutos=minutos-60;
             horas++;
         }
